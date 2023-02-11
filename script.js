@@ -1,31 +1,11 @@
 // project 6 Output
 
 // first output
+let logoChange = document.querySelector("header img");
+logoChange.src = "./assets/ineuron-logo.png";
 
-// let tg = document.querySelector('header img');
-// tg.remove();
-
-
-
-
-
-// let img1 = document.createElement('img');
-// img1.src = "./assets/ineuron-logo.png";
-
-// let target = document.querySelector('header');
-
-// target.appendChild(img1);
 
 // second output
 
-let tg = document.querySelector('header img');
-
-tg.remove();
-
-let tg1 = document.querySelector('.top_img img');
-
-let tg3 = document.querySelector('.hero');
-
-tg1.remove();
-
-tg3.remove();
+let appPrice = document.querySelector(".app .app_price span");
+appPrice.innerText = "$10";
